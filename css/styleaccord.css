@@ -1,0 +1,27 @@
+h2 {
+color: #444; font-size: 18px; font-weight: normal; 
+cursor:pointer; 
+}
+.accordion {
+border: 1px solid #ddd; border-top: none; margin: 0; 
+float: left; width: 470px; position: relative;
+}
+.accordion a { 
+display: block; text-decoration: none; 
+}
+.accordion h2, .accordion a{
+background-color: #fff; 
+background-image: url(gradient.jpg);
+background-image: -moz-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -ms-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -o-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: -webkit-linear-gradient(bottom, #f1f1f1, #fff);
+background-image: linear-gradient(bottom, #f1f1f1, #fff); 
+border-top: 1px solid #ddd;
+color: #444; font: 16px 'Fira Sans', sans-serif; 
+margin: 0; padding: 0; text-indent: 10px;
+}
+.accordion p {
+color: #444; font: 16px 'Fira Sans', sans-serif; 
+padding: 0 20px 20px; font-style: italic;
+}
